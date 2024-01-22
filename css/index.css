@@ -207,8 +207,6 @@
     margin-right: 20%;
   }
 
-
-
 /* --------------------Pricing Table Section / Pricing Columns-----------------------------*/
 
 .pricing-table--tableau {
@@ -389,8 +387,8 @@ label {
 }
 
 input[type=submit] {
-    background-color: var(--secondary);
-    color: white;
+    background-color: var(--primary) ;
+    color:var(--white);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -398,9 +396,17 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: var(--white);
-    color: var(--secondary);
-    border-color: 1px solid var(--secondary);
+    background-color:var(--white);
+    color:var(--primary)  ;
+    border-color: 1px solid var(--primary);
+}
+
+.contact__form div{
+  width: 100%;
+}
+.contact__form--Service--submit{
+  display: flex;
+  gap: 25px;
 }
 
 .container {
@@ -415,10 +421,62 @@ input[type=submit]:hover {
 }
 
   /* -------------------- Footer -----------------------------*/
+.main-footer{
+  gap: 50px;
 
-  
-  
-  
+}
+
+.main-footer--Copyright{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40%;
+}
+
+.top-link{
+  color: var(--white);
+  background-color: var(--primary);
+  border-radius: 48%;
+  display: flex;
+  max-width: 5%;
+  align-items: center;
+  padding: 25px;
+  font-size: 31px;
+  margin-top: -46px;
+  margin-right: 48%;
+  margin-left: 48%;
+}
+
+.nav-social{
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+.facebook{
+  background-color: blue;
+  border-radius: 55%;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.youtube{
+  background-color: red;
+  border-radius: 55%;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.instagram{
+  background-color:deeppink;
+  border-radius: 55%;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+}
+
   /* -------------------- Layout -----------------------------*/
   
 
